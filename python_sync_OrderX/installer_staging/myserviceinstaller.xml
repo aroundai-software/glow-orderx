@@ -1,0 +1,19 @@
+<service>
+  <id>TallySync</id>
+  <name>TallySync</name>
+  <description>OrderX Tally background sync. Interval and settings are read from the .env file in this folder.</description>
+  <executable>%BASE%\TallySync.exe</executable>
+  <workingdirectory>%BASE%</workingdirectory>
+  <startmode>Automatic</startmode>
+  <delayedAutoStart/>
+  <stoptimeout>15 sec</stoptimeout>
+  <onfailure action="restart" delay="10 sec"/>
+  <onfailure action="restart" delay="30 sec"/>
+  <onfailure action="restart" delay="60 sec"/>
+  <resetfailure>1 hour</resetfailure>
+  <logpath>%BASE%</logpath>
+  <log mode="roll-by-size">
+    <sizeThreshold>10240</sizeThreshold>
+    <keepFiles>5</keepFiles>
+  </log>
+</service>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="VK Traders Test Route">
+  <metadata>
+    <name>Kochi Urban Test Route</name>
+    <desc>Simulates urban delivery route with stops in Kochi</desc>
+  </metadata>
+  <trk>
+    <name>Kochi Urban Delivery</name>
+    <trkseg>
+      <!-- Starting point - MG Road area -->
+      <trkpt lat="9.9716" lon="76.2850"><time>2024-01-01T09:00:00Z</time></trkpt>
+      <trkpt lat="9.9720" lon="76.2855"><time>2024-01-01T09:00:10Z</time></trkpt>
+      <trkpt lat="9.9725" lon="76.2860"><time>2024-01-01T09:00:20Z</time></trkpt>
+      <!-- Stop 1 - Shop visit (stationary for 2 min) -->
+      <trkpt lat="9.9730" lon="76.2865"><time>2024-01-01T09:00:30Z</time></trkpt>
+      <trkpt lat="9.9730" lon="76.2865"><time>2024-01-01T09:01:00Z</time></trkpt>
+      <trkpt lat="9.9731" lon="76.2866"><time>2024-01-01T09:02:00Z</time></trkpt>
+      <trkpt lat="9.9730" lon="76.2865"><time>2024-01-01T09:02:30Z</time></trkpt>
+      <!-- Moving to next shop -->
+      <trkpt lat="9.9735" lon="76.2870"><time>2024-01-01T09:02:40Z</time></trkpt>
+      <trkpt lat="9.9742" lon="76.2878"><time>2024-01-01T09:02:50Z</time></trkpt>
+      <trkpt lat="9.9750" lon="76.2885"><time>2024-01-01T09:03:00Z</time></trkpt>
+      <!-- Turn right -->
+      <trkpt lat="9.9755" lon="76.2890"><time>2024-01-01T09:03:10Z</time></trkpt>
+      <trkpt lat="9.9755" lon="76.2900"><time>2024-01-01T09:03:20Z</time></trkpt>
+      <trkpt lat="9.9755" lon="76.2910"><time>2024-01-01T09:03:30Z</time></trkpt>
+      <!-- Stop 2 - Another shop -->
+      <trkpt lat="9.9755" lon="76.2915"><time>2024-01-01T09:03:40Z</time></trkpt>
+      <trkpt lat="9.9756" lon="76.2916"><time>2024-01-01T09:04:30Z</time></trkpt>
+      <trkpt lat="9.9755" lon="76.2915"><time>2024-01-01T09:05:30Z</time></trkpt>
+      <!-- Continue route -->
+      <trkpt lat="9.9760" lon="76.2920"><time>2024-01-01T09:05:40Z</time></trkpt>
+      <trkpt lat="9.9768" lon="76.2925"><time>2024-01-01T09:05:50Z</time></trkpt>
+      <trkpt lat="9.9775" lon="76.2930"><time>2024-01-01T09:06:00Z</time></trkpt>
+      <!-- Pocket road detour -->
+      <trkpt lat="9.9778" lon="76.2928"><time>2024-01-01T09:06:10Z</time></trkpt>
+      <trkpt lat="9.9780" lon="76.2925"><time>2024-01-01T09:06:20Z</time></trkpt>
+      <trkpt lat="9.9782" lon="76.2928"><time>2024-01-01T09:06:30Z</time></trkpt>
+      <trkpt lat="9.9785" lon="76.2932"><time>2024-01-01T09:06:40Z</time></trkpt>
+      <!-- Return to main road -->
+      <trkpt lat="9.9790" lon="76.2940"><time>2024-01-01T09:06:50Z</time></trkpt>
+      <trkpt lat="9.9795" lon="76.2948"><time>2024-01-01T09:07:00Z</time></trkpt>
+      <trkpt lat="9.9800" lon="76.2955"><time>2024-01-01T09:07:10Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

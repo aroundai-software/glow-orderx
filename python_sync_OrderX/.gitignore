@@ -1,0 +1,30 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & vendored tool sources
+venv/
+build_venv/
+.venv/
+pyinstaller_src/
+
+# PyInstaller / Inno Setup build outputs & packages
+build/
+dist/
+dist_deployment/
+installer_output/
+installer_staging/_internal/
+installer_staging/*.exe
+installer_staging/.env
+*.exe
+*.zip
+*.7z
+
+# Environment & Logs
+.env
+.env.*
+*.env
+!.env.example
+*.log
+

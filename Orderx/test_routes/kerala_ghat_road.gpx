@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="VK Traders Test Route">
+  <metadata>
+    <name>Kerala Ghat Road Test Route</name>
+    <desc>Simulates Munnar ghat road with hairpin bends</desc>
+  </metadata>
+  <trk>
+    <name>Munnar Ghat Test</name>
+    <trkseg>
+      <!-- Starting point - base of ghat -->
+      <trkpt lat="10.0889" lon="77.0595"><time>2024-01-01T09:00:00Z</time></trkpt>
+      <trkpt lat="10.0895" lon="77.0600"><time>2024-01-01T09:00:10Z</time></trkpt>
+      <trkpt lat="10.0902" lon="77.0608"><time>2024-01-01T09:00:20Z</time></trkpt>
+      <!-- Hairpin bend 1 (sharp 160° turn) -->
+      <trkpt lat="10.0910" lon="77.0615"><time>2024-01-01T09:00:30Z</time></trkpt>
+      <trkpt lat="10.0905" lon="77.0620"><time>2024-01-01T09:00:40Z</time></trkpt>
+      <trkpt lat="10.0898" lon="77.0618"><time>2024-01-01T09:00:50Z</time></trkpt>
+      <!-- Straight section -->
+      <trkpt lat="10.0890" lon="77.0625"><time>2024-01-01T09:01:00Z</time></trkpt>
+      <trkpt lat="10.0885" lon="77.0635"><time>2024-01-01T09:01:10Z</time></trkpt>
+      <trkpt lat="10.0880" lon="77.0645"><time>2024-01-01T09:01:20Z</time></trkpt>
+      <!-- Hairpin bend 2 (sharp 170° turn) -->
+      <trkpt lat="10.0875" lon="77.0655"><time>2024-01-01T09:01:30Z</time></trkpt>
+      <trkpt lat="10.0880" lon="77.0660"><time>2024-01-01T09:01:40Z</time></trkpt>
+      <trkpt lat="10.0888" lon="77.0658"><time>2024-01-01T09:01:50Z</time></trkpt>
+      <!-- Continue uphill -->
+      <trkpt lat="10.0895" lon="77.0665"><time>2024-01-01T09:02:00Z</time></trkpt>
+      <trkpt lat="10.0905" lon="77.0675"><time>2024-01-01T09:02:10Z</time></trkpt>
+      <trkpt lat="10.0915" lon="77.0680"><time>2024-01-01T09:02:20Z</time></trkpt>
+      <!-- Hairpin bend 3 -->
+      <trkpt lat="10.0920" lon="77.0690"><time>2024-01-01T09:02:30Z</time></trkpt>
+      <trkpt lat="10.0915" lon="77.0698"><time>2024-01-01T09:02:40Z</time></trkpt>
+      <trkpt lat="10.0908" lon="77.0695"><time>2024-01-01T09:02:50Z</time></trkpt>
+      <!-- Final stretch -->
+      <trkpt lat="10.0900" lon="77.0700"><time>2024-01-01T09:03:00Z</time></trkpt>
+      <trkpt lat="10.0892" lon="77.0710"><time>2024-01-01T09:03:10Z</time></trkpt>
+      <trkpt lat="10.0885" lon="77.0720"><time>2024-01-01T09:03:20Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
